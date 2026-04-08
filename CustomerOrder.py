@@ -2,18 +2,18 @@ import tkinter as tk
 
 # Data (same as your tables)
 customers = [
-    {"id": 1, "name": "Joe"},
-    {"id": 2, "name": "Henry"},
-    {"id": 3, "name": "Sam"},
-    {"id": 4, "name": "Max"},
-    {"id": 5, "name": "Rohan"}
+    {"id": 1, "name": "Rohan"},
+    {"id": 2, "name": "Edward"},
+    {"id": 3, "name": "Harry"},
+    {"id": 4, "name": "Abriel"},
+    
 
 ]
 
 orders = [
     {"id": 1, "customerId": 3},
     {"id": 2, "customerId": 1},
-    {"id": 3, "customerId": 5}
+    
 ]
 
 # Function to find customers without orders
